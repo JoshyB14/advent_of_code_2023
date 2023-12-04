@@ -108,7 +108,7 @@ SET SECOND =
 		WHEN LENGTH(NUMBERS) > 1
 			THEN RIGHT(NUMBERS,1)
 	END
-;
+; 
 
 -- concat first and second digits
 UPDATE DAY_1_2
@@ -118,4 +118,4 @@ SET TOTAL = CONCAT(FIRST::INT,  SECOND::INT)
 -- get total 
 SELECT SUM(TOTAL::INT) FROM DAY_1_2
 
--- ANSWER: 54,697
+-- ANSWER: 
